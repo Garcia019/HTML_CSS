@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+
+h1{
+    margin: 5px;
+}
+
+h2{
+    padding: 5px;
+}
+
+h3{
+    color:black;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 700px;
+    height: 100000px;
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dados{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 107, 107);
+    height: 20px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.dados1{
+    display: flex;
+}
+.dados2{
+    display: flex;
+}
+
+.secoes1{
+    display: flex;
+    flex-direction: row;
+
+}
+.secoes2{
+    display:flex;
+
+}
+.topicos2{
+    background-color: rgb(173, 255, 47);
+    margin: 20px;
+    height: 230px;
+    width: 250px;
+    padding: 10px;
+}
+
+.topicos1{
+    background-color: rgb(88, 88, 253);
+    margin: 20px;
+    height: 230px;
+    width: 250px;
+    padding: 10px;
+}

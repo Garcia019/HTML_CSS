@@ -1,0 +1,57 @@
+.cabecalho{
+    background-color: red;
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteudo1{
+    max-width: 90vw;
+    margin: 30px auto;
+    background-color: red;
+    text-align: center;
+}
+
+.cards1{
+    height: 100px;
+    width: 20vw;
+    margin: 1vw 1.25vw;
+    background-color: red;
+    float: left;
+}
+
+.limpeza::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.conteudo2{
+    max-width: 90vw;
+    margin: 30px auto;
+    background-color: red;
+    text-align: center;
+}
+
+.cards2{
+    height: 100px;
+    width: 40vw;
+    margin: 1vw 2.5vw;
+    background-color: red;
+    float: left;
+}
+
+.conteudo3{
+    max-width: 90vw;
+    margin: 30px auto;
+    background-color: red;
+    text-align: center;
+}
+
+.cards3{
+    height: 100px;
+    width: 28vw;
+    margin: 1vw 1vw;
+    background-color: red;
+    float: left;
+}
