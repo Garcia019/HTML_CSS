@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form>
+        <h1>Cadastro de Carros</h1>
+        <div class="inputText">
+            <label for="modelo">Modelo:</label>
+            <input id="modelo" type="text" name="Modelo" placeholder="Ex: Corolla, Civic, Celta">
+        <div class="inputText">
+            <label for="marca"> Marca:</label>
+            <input id="marca" type="text" name="Marca" placeholder="Ex: Toyota, Honda, Chevrolet">
+        </div>
+        <div class="inputText">
+            <label for="ano">Ano:</label>
+            <input id="ano" type="text" name="Ano" placeholder="Ex: 2021, 2022, 2023">
+        </div>
+        <div class="inputText">
+            <label for="quilometragem">Quilometragem:</label>
+            <input id="quilometragem" type="text" name="Quilometragem" placeholder="Ex: 0km, 1500km, 95000km">
+        </div>
+        <div class="inputText">
+            <label for="valor">Valor:</label>
+            <input id="valor" type="text" name="Valor" placeholder="Ex: Corolla, Civic, Celta">
+        </div>
+        <div class="inputRadio">
+            <h4>Novo ou Usado:</h4>
+            <label for="novo">Novo</label>
+            <input id="novo" type="radio" name="Novo/Usado" value="novo">
+            <label for="usado">Usado</label>
+            <input id="usado" type="radio" name="Novo/Usado" value="usado">
+        </div>
+        <div>
+            <h4>Acessórios:</h4>
+            <label for="airbag">Airbag</label>
+            <input id="airbag" type="checkbox" name="Airbag" value="airbag">
+            <label for="alarme">Alarme</label>
+            <input  id="alarme" type="checkbox" name="Alarme" value="alarme">
+            <label for="arCondicionado">Ar-Condicionado</label>
+            <input type="checkbox" name="ArCondicionado" id="arCondicionado" value="arCondicionado">
+        </div>
+        <div>
+            <h4>Placa</h4>
+            <label for="finalplaca">Selecione o final da placa:</label>
+            <select name="FinalPlaca" id="finalplaca">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

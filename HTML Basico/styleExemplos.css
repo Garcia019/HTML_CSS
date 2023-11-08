@@ -16,7 +16,6 @@ span{
     border: 10px groove red;
     height: 100px;
     width: 45%;
-    float:left ;
 }
 
 .spans2{
@@ -26,5 +25,4 @@ span{
     border: 10px groove blue;
     height: 100px;
     width: 45%;
-    float:left
 }
